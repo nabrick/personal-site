@@ -5,6 +5,32 @@ import Layout from "../layouts/Main.astro";
 
 <Layout title="Proyectos">
   <section class="flex flex-col gap-6 items-center text-center py-05">
-    <h1 class="text-6xl font-semibold mb-05 text-center">Proyectos</h1>
+    <h1 class="text-5xl font-semibold text-center">Proyectos</h1>
+
+    <div class="space-y-12">
+
+      <!-- Plugin Obsidian -->
+      <article class="group border-l border-neutral-700 pl-6 py-4 hover:border-white transition">
+        <h2 class="text-2xl font-bold mb-2">Obsidian Link Audit</h2>
+        <p class="text-neutral-400 max-w-prose mb-4">
+          Plugin para auditar enlaces internos y detectar carpetas vacías en tu Vault de Obsidian.
+        </p>
+
+        <div class="flex items-center gap-6">
+          <a href="https://github.com/nabrick/obsidian-LinkAudit"
+             class="text-sm underline decoration-neutral-600 hover:decoration-white underline-offset-4 transition"
+             target="_blank">
+            GitHub →
+          </a>
+
+          <a href="https://github.com/nabrick/obsidian-LinkAudit/releases/tag/v1.0.1"
+             class="text-sm underline decoration-neutral-600 hover:decoration-white underline-offset-4 transition"
+             target="_blank">
+            Descargar .zip →
+          </a>
+        </div>
+      </article>
+
+    </div>
   </section>
 </Layout>
